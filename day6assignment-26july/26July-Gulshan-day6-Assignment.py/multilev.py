@@ -6,15 +6,14 @@ class student:
 class test(student):
     
     def Marks(self):
-        self.stuClass = input("Class: ")
-        print("Enter the marks of the respective subjects")
-        self.literature = int(input("Literature: "))
-        self.math = int(input("Math: "))
-        self.biology = int(input("Biology: "))
-        self.physics = int(input("Physics: "))
+        self.stuClass = input()
+        self.literature = int(input())
+        self.math = int(input())
+        self.biology = int(input())
+        self.physics = int(input())
 class marks(test):    
     def display(self):
-        print("\n\nName: ",self.name)
+        print("Name: ",self.name)
         print("Age: ",self.age)
         print("Gender: ",self.gender)
         print("Study in: ",self.stuClass)
